@@ -14,9 +14,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid background-color: white">
-          <h1 class="navbar-brand" style="background-color: darkcyan; color: white; padding: 10px;" 
-            href="index.html">Latitude</h1>
-            
+          <a class="navbar-brand" style="background-color: darkcyan; color: white; padding: 10px;" 
+            href="index.html">Latitude</a>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,35 +46,38 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-sm-12">
+    <div class="container"; style="background-color: rgb(229, 226, 226)">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-6 col-sm-12 m-2"; style="background-color: white;">
                     <div class="title">
-                        <h1>Summary: Latitude vs. X</h1>
+                        <h4>Summary: Latitude vs. X</h4>
                     </div>    
                     <hr>
-                    <img src="Resources/assets/images/Fig1.png"; width="300">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    </p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    <img src="Resources/assets/images/Fig1.png"; width="200" height="200">
+                    <p>
+                      <small>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    </small>
+                  </p>
+                    <p><small>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    </small>
                     </p>    
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 m-2">
               <div class="container"; style="color: darkcyan">
-                <h2>Visualizations</h2>
+                <h4>Visualizations</h4>
                 <hr>
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12">
-                        <img src="Resources/assets/images/Fig1.png" class="fluid" width="200">
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig1.png" class="fluid" width="100" height="100">
                     </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <img src="Resources/assets/images/Fig1.png" class="fluid" width="200">
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig2.png" class="fluid" width="100" height="100">
                     </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <img src="Resources/assets/images/Fig1.png" class="fluid" width="200">
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig3.png" class="fluid" width="100" height="100">
                     </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <img src="Resources/assets/images/Fig1.png" class="fluid" width="200">
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig4.png" class="fluid" width="100" height="100">
                     </div>
                 </div>
               </div>

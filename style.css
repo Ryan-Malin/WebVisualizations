@@ -14,17 +14,11 @@
 
   }
 
-  .p1 {
+  .p {
     font-family: "Times New Roman";
   }
   
-  .p2 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .p3 {
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
+
 
   .title {
     color: darkcyan;
@@ -43,3 +37,11 @@
     margin: 0px;
     background-color: white;
   }
+
+  h4 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Design Homework</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid background-color: white">
+          <a class="navbar-brand" style="background-color: darkcyan; color: white; padding: 10px;" 
+            href="index.html">Latitude</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" style="background-color: white;" id="navbarScroll">
+            <ul class="navbar-nav ms-auto text-center" style="--bs-scroll-height: 100px;">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: rgb(68, 67, 67)" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plots
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <a class="dropdown-item" href="Resources/assets/images/Fig1.png">vs. Max Temperature</a>
+                    <a class="dropdown-item" href="//WebVisualizations/Images/humidity.html">vs. Humidity</a>
+                    <a class="dropdown-item" href="//WebVisualizations/Images/cloudiness.html">vs. Cloudiness</a>
+                    <a class="dropdown-item" href="//WebVisualizations/Images/windspeed.html">vs. Wind Speed</a>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="color: rgb(68, 67, 67)" href="#">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: rgb(68, 67, 67)" tabindex="-1" aria-disabled="true">Data</a>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container"; style="background-color: rgb(229, 226, 226)">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-6 col-sm-12 m-2"; style="background-color: white;">
+                    <div class="title">
+                        <h4>Comparison: Latitude vs. X</h4>
+                    </div>    
+                    <hr>
+                    <h>Click on any plot to view an in-depth analysis</h>   
+            </div>
+            <div class="col-lg-4 col-sm-12 m-2">
+              <div class="container"; style="color: darkcyan">
+                <h4>Visualizations</h4>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig1.png" class="fluid" width="100" height="100">
+                    </div>
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig2.png" class="fluid" width="100" height="100">
+                    </div>
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig3.png" class="fluid" width="100" height="100">
+                    </div>
+                    <div class="col-lg-6 col-sm-3">
+                        <img src="Resources/assets/images/Fig4.png" class="fluid" width="100" height="100">
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
